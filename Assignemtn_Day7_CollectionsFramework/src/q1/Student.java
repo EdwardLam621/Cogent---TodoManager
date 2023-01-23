@@ -4,6 +4,7 @@
 package q1;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * @author : Edward Lam
@@ -11,16 +12,31 @@ import java.util.ArrayList;
  */
 public class Student {
 	private ArrayList<String> names;
+	Scanner sc = new Scanner(System.in);
 	
 	public void setNames() {
 		names = new ArrayList<String>();
-		names.add("AAA");
-		names.add("BBB");
-		names.add("CCC");
+		
+		//hardcode for test
+		//names.add("AAA");
+		//names.add("BBB");
+		//names.add("CCC");
+		
+		System.out.println("Please enter 0 when you finish input");
+		
+		
+		String in = "";
+		while(!in.equals("0")){
+			System.out.println("Please enter name:");
+			in = sc.nextLine();
+			names.add(in);
+		}
+		
 		
 	}
 	
 	public void searchName(String name) {
+		
 		if(name.contains(name)) {
 			System.out.println("Student exists");
 		} else {
