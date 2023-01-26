@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author : Edward Lam
  * @date   : 2023-01-17
  */
-public class driverQ1 {
+public class driver {
 
 	/**
 	 * @param args

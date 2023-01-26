@@ -88,7 +88,7 @@ public class Driver {
 			System.out.println(b.getTaskID() + " " + b.getTaskName());
 			System.out.println(a.getTaskID() + " " + a.getTaskName());
 		}
-		
+		System.out.println();
 	}
 
 }
