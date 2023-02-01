@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cogent.exception;
+package cogent.infotech.exception;
 
 /**
  * @author : Edward Lam
