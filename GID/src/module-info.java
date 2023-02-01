@@ -5,5 +5,5 @@
  * @author edward
  *
  */
-module BookStore_Management {
+module GID {
 }

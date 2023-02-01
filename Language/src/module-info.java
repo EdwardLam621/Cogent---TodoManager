@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author edward
- *
- */
-module Language {
-}

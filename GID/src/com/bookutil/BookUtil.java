@@ -67,7 +67,7 @@ public class BookUtil {
 		
 		
 		// user input
-		for(int i = 0; i < 3; i++) {
+		for(int i = 1; i < 4; i++) {
 			System.out.println("New book " + i + " " + "ID: ");
 			String id = sc.next();
 			System.out.println("New book " + i + " " + "Title: ");
